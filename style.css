@@ -1,0 +1,84 @@
+header {
+ background-color: #2960b2;
+}
+
+main {
+	font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+/* CSS da página inicial */
+
+.biolight {
+	text-align: center;
+}
+
+.slogan {
+	font-family: "nanum-myeongjo", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+.comprar {
+    width: 40%;
+	padding: 15px 0;
+	background: darkblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+/* CSS da página de compra */
+
+input {
+    display: block;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+label {
+   margin: 0 20px;
+}
+
+.complemento {
+    margin-bottom: 20px;
+}
+
+.total {
+margin: 0 20px;
+margin-bottom: 20px;
+font-size: 30px;
+font-weight: bold;  
+}
+
+.enviar {
+    width: 40%;
+	padding: 15px;
+	background: darkblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+    margin: 0 20px;
+}
+
+.enviar:hover {
+    background: rgb(10, 127, 180);
+	transform: scale(1.2);
+}
